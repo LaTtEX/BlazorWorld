@@ -16,182 +16,6 @@ namespace BlazorWorld.Data.Migrations.Sqlite
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("BlazorWorld.Core.Entities.Common.NodeCustomFields", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField1")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField10")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField11")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField12")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField13")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField14")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField15")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField16")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField17")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField18")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField19")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField2")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField20")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField3")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField4")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField5")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField6")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField7")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField8")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CustomField9")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField1")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField10")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField11")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField12")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField13")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField14")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField15")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField16")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField17")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField18")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField19")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField2")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField20")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField3")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField4")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField5")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField6")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField7")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField8")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IndexedCustomField9")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NodeId")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IndexedCustomField1");
-
-                    b.HasIndex("IndexedCustomField10");
-
-                    b.HasIndex("IndexedCustomField11");
-
-                    b.HasIndex("IndexedCustomField12");
-
-                    b.HasIndex("IndexedCustomField13");
-
-                    b.HasIndex("IndexedCustomField14");
-
-                    b.HasIndex("IndexedCustomField15");
-
-                    b.HasIndex("IndexedCustomField16");
-
-                    b.HasIndex("IndexedCustomField17");
-
-                    b.HasIndex("IndexedCustomField18");
-
-                    b.HasIndex("IndexedCustomField19");
-
-                    b.HasIndex("IndexedCustomField2");
-
-                    b.HasIndex("IndexedCustomField20");
-
-                    b.HasIndex("IndexedCustomField3");
-
-                    b.HasIndex("IndexedCustomField4");
-
-                    b.HasIndex("IndexedCustomField5");
-
-                    b.HasIndex("IndexedCustomField6");
-
-                    b.HasIndex("IndexedCustomField7");
-
-                    b.HasIndex("IndexedCustomField8");
-
-                    b.HasIndex("IndexedCustomField9");
-
-                    b.HasIndex("NodeId")
-                        .IsUnique();
-
-                    b.ToTable("EntityCustomFields");
-                });
-
             modelBuilder.Entity("BlazorWorld.Core.Entities.Configuration.Setting", b =>
                 {
                     b.Property<string>("Id")
@@ -385,6 +209,205 @@ namespace BlazorWorld.Data.Migrations.Sqlite
                     b.ToTable("Nodes");
                 });
 
+            modelBuilder.Entity("BlazorWorld.Core.Entities.Content.NodeCustomFields", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField1")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField10")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField11")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField12")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField13")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField14")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField15")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField16")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField17")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField18")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField19")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField2")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField20")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField3")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField4")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField5")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField6")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField7")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField8")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomField9")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField1")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField10")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField11")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField12")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField13")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField14")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField15")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField16")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField17")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField18")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField19")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField2")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField20")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField3")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField4")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField5")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField6")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField7")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField8")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IndexedCustomField9")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NodeId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IndexedCustomField1");
+
+                    b.HasIndex("IndexedCustomField10");
+
+                    b.HasIndex("IndexedCustomField11");
+
+                    b.HasIndex("IndexedCustomField12");
+
+                    b.HasIndex("IndexedCustomField13");
+
+                    b.HasIndex("IndexedCustomField14");
+
+                    b.HasIndex("IndexedCustomField15");
+
+                    b.HasIndex("IndexedCustomField16");
+
+                    b.HasIndex("IndexedCustomField17");
+
+                    b.HasIndex("IndexedCustomField18");
+
+                    b.HasIndex("IndexedCustomField19");
+
+                    b.HasIndex("IndexedCustomField2");
+
+                    b.HasIndex("IndexedCustomField20");
+
+                    b.HasIndex("IndexedCustomField3");
+
+                    b.HasIndex("IndexedCustomField4");
+
+                    b.HasIndex("IndexedCustomField5");
+
+                    b.HasIndex("IndexedCustomField6");
+
+                    b.HasIndex("IndexedCustomField7");
+
+                    b.HasIndex("IndexedCustomField8");
+
+                    b.HasIndex("IndexedCustomField9");
+
+                    b.HasIndex("NodeId")
+                        .IsUnique();
+
+                    b.ToTable("NodeCustomFields");
+                });
+
+            modelBuilder.Entity("BlazorWorld.Core.Entities.Content.NodeLink", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FromNodeId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ToNodeId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Type")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FromNodeId", "Type");
+
+                    b.HasIndex("ToNodeId", "Type");
+
+                    b.ToTable("NodeLinks");
+                });
+
             modelBuilder.Entity("BlazorWorld.Core.Entities.Content.NodeReaction", b =>
                 {
                     b.Property<string>("Id")
@@ -428,7 +451,7 @@ namespace BlazorWorld.Data.Migrations.Sqlite
 
                     b.HasIndex("Tag");
 
-                    b.ToTable("EntityTags");
+                    b.ToTable("NodeTags");
                 });
 
             modelBuilder.Entity("BlazorWorld.Core.Entities.Content.NodeVersion", b =>
@@ -806,11 +829,11 @@ namespace BlazorWorld.Data.Migrations.Sqlite
                     b.ToTable("PersistedGrants");
                 });
 
-            modelBuilder.Entity("BlazorWorld.Core.Entities.Common.NodeCustomFields", b =>
+            modelBuilder.Entity("BlazorWorld.Core.Entities.Content.NodeCustomFields", b =>
                 {
                     b.HasOne("BlazorWorld.Core.Entities.Content.Node", null)
                         .WithOne("CustomFields")
-                        .HasForeignKey("BlazorWorld.Core.Entities.Common.NodeCustomFields", "NodeId");
+                        .HasForeignKey("BlazorWorld.Core.Entities.Content.NodeCustomFields", "NodeId");
                 });
 
             modelBuilder.Entity("BlazorWorld.Core.Entities.Content.NodeReaction", b =>
